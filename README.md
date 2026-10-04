@@ -105,7 +105,8 @@ Once you are inside `agy`, you have the full power of an AI engineer right in yo
 ---
 
 <div align="center">
-  <p><strong>Created with ❤️ by Krish Kumar</strong></p>
+  <p><strong>⭐ If you found this guide helpful, please give this repository a STAR! ⭐</strong></p>
+  <p>Forged by <strong>Krish Kumar</strong></p>
   <a href="https://github.com/krishkumarcodes">
     <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
   </a>
