@@ -3,7 +3,7 @@
 <div align="center" id="top">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=250&section=header&text=Pocket%20Gravity%20🌌&fontSize=50&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=📱%20The%20Ultimate%20Beginner's%20Guide%20to%20Running%20Google%20Antigravity%20CLI&descSize=18&descAlignY=58&descAlign=50&stroke=00FF41&strokeWidth=1" width="100%" alt="Header" />
   <br>
-  <a href="https://github.com/krishkumarcodes/antigravity-termux-guide">
+  <a href="https://github.com/krishkumarcodes/pocket-antigravity">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=An+AI+Engineer+in+your+pocket;Run+it+directly+on+Android;Code,+Create,+and+Deploy;Powered+by+Google+Antigravity" alt="Typing Animation" />
   </a>
 </div>
@@ -27,7 +27,7 @@ You do NOT need a PC or root access. Just follow the steps below! 🚀
 The fastest way to install everything is using our automated setup script. If you already have Termux installed, just paste this single command into Termux and hit <kbd>Enter</kbd>:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/pocket-antigravity/main/install.sh | bash
 ```
 > **Note:** If you don't have Termux yet, or prefer to install manually step-by-step, follow the manual guide below!
 
@@ -70,7 +70,7 @@ Because Termux has specific memory requirements (VA39 layout), the official Anti
 Install the custom fork by running this command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/pocket-antigravity/main/install.sh | bash
 ```
 *(Note: Depending on your internet speed, this might take a minute or two.)*
 
@@ -92,7 +92,7 @@ agy
 
 ---
 
-## 🎮 Step 5: How to Use Pocket Gravity
+## 🎮 Step 5: How to Use Pocket Antigravity
 
 Once you are inside `agy`, you have the full power of an AI engineer right in your pocket. You can chat directly with the AI as if you're texting a senior developer!
 
