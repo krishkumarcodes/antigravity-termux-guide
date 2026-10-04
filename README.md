@@ -27,7 +27,7 @@ You do NOT need a PC or root access. Just follow the steps below! 🚀
 The fastest way to install everything is using our automated setup script. If you already have Termux installed, just paste this single command into Termux and hit <kbd>Enter</kbd>:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
 ```
 > **Note:** If you don't have Termux yet, or prefer to install manually step-by-step, follow the manual guide below!
 
@@ -70,7 +70,7 @@ Because Termux has specific memory requirements (VA39 layout), the official Anti
 Install the custom fork by running this command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/wallentx/antigravity-cli-termux/dev/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
 ```
 *(Note: Depending on your internet speed, this might take a minute or two.)*
 
