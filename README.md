@@ -1,7 +1,11 @@
 <!-- 🚀 ANTIGRAVITY ON TERMUX GUIDE 🚀 -->
 
-<div align="center">
+<div align="center" id="top">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=250&section=header&text=Pocket%20Gravity%20🌌&fontSize=50&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=📱%20The%20Ultimate%20Beginner's%20Guide%20to%20Running%20Google%20Antigravity%20CLI&descSize=18&descAlignY=58&descAlign=50&stroke=00FF41&strokeWidth=1" width="100%" alt="Header" />
+  <br>
+  <a href="https://github.com/krishkumarcodes/antigravity-termux-guide">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=An+AI+Engineer+in+your+pocket;Run+it+directly+on+Android;Code,+Create,+and+Deploy;Powered+by+Google+Antigravity" alt="Typing Animation" />
+  </a>
 </div>
 
 <div align="center">
@@ -66,11 +70,11 @@ You are ready! To launch the AI, just type:
 agy
 ```
 
-The first time you run it, it will ask you to authenticate.
-1. It will provide a link in the terminal.
-2. Long-press the link, select **Copy**, and paste it into your mobile browser (like Chrome or Brave).
-3. Sign in with your Google account.
-4. Copy the verification code provided and paste it back into Termux.
+> **Note:** The first time you run it, it will ask you to authenticate.
+> 1. It will provide a link in the terminal.
+> 2. <kbd>Long-press</kbd> the link, select **Copy**, and paste it into your mobile browser.
+> 3. Sign in with your Google account.
+> 4. Copy the verification code provided and paste it back into Termux.
 
 ---
 
@@ -94,8 +98,8 @@ Once you are inside `agy`, you have the full power of an AI engineer right in yo
 > *"Start a python HTTP server on port 8000 so I can view my files in my mobile browser."*
 
 ### ⚙️ Useful Commands:
-- Type `/help` to see all available commands.
-- Type `/exit` or press `Ctrl+D` twice to close the CLI.
+- Type <kbd>/help</kbd> to see all available commands.
+- Type <kbd>/exit</kbd> or press <kbd>Ctrl</kbd> + <kbd>D</kbd> twice to close the CLI.
 
 ### 🧠 Best Practices:
 - **Be Specific**: Give clear, detailed instructions.
@@ -105,6 +109,8 @@ Once you are inside `agy`, you have the full power of an AI engineer right in yo
 ---
 
 <div align="center">
+  <p><kbd> <a href="#top">⬆️ Back to Top</a> </kbd></p>
+  <br>
   <p><strong>⭐ If you found this guide helpful, please give this repository a STAR! ⭐</strong></p>
   <p>Forged by <strong>Krish Kumar</strong></p>
   <a href="https://github.com/krishkumarcodes">
