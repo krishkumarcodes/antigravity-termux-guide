@@ -44,7 +44,7 @@ curl -sL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-gu
 
 ## 📦 Step 2: Update Packages & Install Requirements
 
-We need to make sure Termux is up to date and has the necessary tools (Python, Node.js, and Git) installed.
+We need to make sure Termux is up to date and has the necessary tools installed.
 
 Copy and paste this command into Termux and press **Enter**:
 
@@ -52,22 +52,25 @@ Copy and paste this command into Termux and press **Enter**:
 pkg update && pkg upgrade -y
 ```
 
-Next, install the required languages:
+Next, install `git` and `curl`:
 
 ```bash
-pkg install python nodejs git curl -y
+pkg install git curl -y
 ```
 
 ---
 
 ## 🚀 Step 3: Install Antigravity CLI (`agy`)
 
-Now that we have the tools, we can install the Antigravity CLI. The easiest way is using `npm` (Node Package Manager).
+Because Termux has specific memory requirements (VA39 layout), the official Antigravity CLI via npm does not work natively on some Android kernels. Instead, we use a specialized Termux fork that patches these memory limits and includes a standalone C bootstrapper!
 
-Run this command:
+> [!NOTE]
+> **Community Acknowledgement:** The custom Antigravity Termux build is maintained by [@wallentx](https://github.com/wallentx). It automatically updates from upstream and compiles a working version for Android! 
+
+Install the custom fork by running this command:
 
 ```bash
-npm install -g antigravity-cli
+curl -fsSL https://raw.githubusercontent.com/wallentx/antigravity-cli-termux/dev/install.sh | bash
 ```
 *(Note: Depending on your internet speed, this might take a minute or two.)*
 
