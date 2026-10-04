@@ -22,7 +22,18 @@ You do NOT need a PC or root access. Just follow the steps below! 🚀
 
 ---
 
-## 🛠️ Step 1: Install Termux
+## ⚡ Quick Install (Automated)
+
+The fastest way to install everything is using our automated setup script. If you already have Termux installed, just paste this single command into Termux and hit <kbd>Enter</kbd>:
+
+```bash
+curl -sL https://raw.githubusercontent.com/krishkumarcodes/antigravity-termux-guide/main/install.sh | bash
+```
+> **Note:** If you don't have Termux yet, or prefer to install manually step-by-step, follow the manual guide below!
+
+---
+
+## 🛠️ Step 1: Install Termux (Manual Guide)
 
 1. Do **NOT** download Termux from the Google Play Store (it is outdated and no longer works).
 2. Download and install **F-Droid** from [f-droid.org](https://f-droid.org/).
