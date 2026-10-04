@@ -2,7 +2,7 @@
 # Antigravity - Termux Installer
 set -Eeuo pipefail
 
-REPO="${AGY_REPO:-wallentx/antigravity-cli-termux}"
+REPO="${AGY_REPO:-krishkumarcodes/pocket-antigravity}"
 URL="${AGY_INSTALL_URL:-https://github.com/$REPO/releases/latest/download/antigravity-termux-standalone.tar.gz}"
 
 # ── Environment Detection ─────────────────────────────────────────────────────
@@ -197,7 +197,7 @@ download_with_progress() {
 echo ""
 TMP_LOGO=$(mktemp 2>/dev/null || echo "${HOME}/.local/.agy-logo.ans")
 
-if { curl -fLs -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/${REPO}/dev/logo.ans" > "$TMP_LOGO" 2>/dev/null || curl -fLs -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/Brajesh2022/antigravity-cli-termux/dev/logo.ans" > "$TMP_LOGO" 2>/dev/null; } && [[ -s "$TMP_LOGO" ]]; then
+if { curl -fLs -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/${REPO}/dev/logo.ans" > "$TMP_LOGO" 2>/dev/null || curl -fLs -H "Cache-Control: no-cache" "https://raw.githubusercontent.com/krishkumarcodes/pocket-antigravity/dev/logo.ans" > "$TMP_LOGO" 2>/dev/null; } && [[ -s "$TMP_LOGO" ]]; then
 
   COLS=$(terminal_cols)
 
@@ -332,7 +332,7 @@ divider
 info "Installed binaries to: ${BOLD}${INSTALL_BIN_DIR}${RESET}"
 info "Release archive kept at: ${BOLD}${TMP}${RESET}"
 info "Optional verification:"
-info "${BOLD}cd $(dirname "$TMP") && gh attestation verify antigravity-termux-standalone.tar.gz -R wallentx/antigravity-cli-termux${RESET}"
+info "${BOLD}cd $(dirname "$TMP") && gh attestation verify antigravity-termux-standalone.tar.gz -R krishkumarcodes/pocket-antigravity${RESET}"
 printf '\n'
 
 case ":$PATH:" in
