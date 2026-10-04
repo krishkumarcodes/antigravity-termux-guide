@@ -1,7 +1,7 @@
 <!-- 🚀 ANTIGRAVITY ON TERMUX GUIDE 🚀 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=250&section=header&text=Antigravity%20on%20Termux&fontSize=50&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=📱%20The%20Ultimate%20Beginner's%20Guide%20to%20Running%20Google%20Antigravity%20CLI&descSize=18&descAlignY=58&descAlign=50&stroke=00FF41&strokeWidth=1" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=250&section=header&text=Pocket%20Gravity%20🌌&fontSize=50&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=📱%20The%20Ultimate%20Beginner's%20Guide%20to%20Running%20Google%20Antigravity%20CLI&descSize=18&descAlignY=58&descAlign=50&stroke=00FF41&strokeWidth=1" width="100%" alt="Header" />
 </div>
 
 <div align="center">
@@ -74,18 +74,33 @@ The first time you run it, it will ask you to authenticate.
 
 ---
 
-## 🎮 Step 5: How to Use It
+## 🎮 Step 5: How to Use Pocket Gravity
 
-Once you are inside `agy`, you can chat directly with the AI! 
+Once you are inside `agy`, you have the full power of an AI engineer right in your pocket. You can chat directly with the AI as if you're texting a senior developer!
 
-### Useful Commands:
+### 🌟 What can it do?
+- **Write and Edit Code**: Ask it to create Python scripts, React apps, or bash scripts. It will create the files and write the code directly on your phone!
+- **Run Commands**: It has terminal access. It can run `ls`, compile code, start servers, and install packages for you.
+- **Search the Web**: Need documentation or want to look up an error? Just ask it to search the web for the answer.
+- **Spawn Subagents**: For massive tasks, it can spawn subagents to do research or build things in the background while you chat.
+
+### 💬 Example Prompts:
+> *"Create a simple python script that prints 'Hello World' and run it."*
+
+> *"Search the web for the latest version of React and tell me what changed."*
+
+> *"Look at my `index.js` file and find the bug."*
+
+> *"Start a python HTTP server on port 8000 so I can view my files in my mobile browser."*
+
+### ⚙️ Useful Commands:
 - Type `/help` to see all available commands.
 - Type `/exit` or press `Ctrl+D` twice to close the CLI.
 
-### Best Practices:
-- Give it clear instructions.
-- If it asks you to run a command, you can say "yes" or let it run automatically.
-- Antigravity can edit files, write code, and run commands directly in your Termux environment!
+### 🧠 Best Practices:
+- **Be Specific**: Give clear, detailed instructions.
+- **Permission**: If it asks you to run a command, you can say "yes" or configure it to run automatically.
+- **Let it Cook**: If it needs time to search or think, just wait. It's doing real work in the background!
 
 ---
 
